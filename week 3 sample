@@ -1,0 +1,175 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP14zVSLHpR8iXbbUTSi8Gq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sirethel/Sirethel/blob/main/week%203%20sample\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1Ej11q4hWeSs",
+        "outputId": "43e3b59e-1461-4281-aa99-0f932ac30607"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "#write a code to assign a variables  and print the results\n",
+        "a=2\n",
+        "b=7\n",
+        "c=a+b\n",
+        "print (c)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#write a variable that can give me two different variables first name and last name\n",
+        "first_name =\"ethel\"\n",
+        "last_name =\"nwachukwu\"\n",
+        "full_name =first_name+last_name\n",
+        "print(full_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p1t50TQJYJZf",
+        "outputId": "0e8f9392-8ad6-44bd-ccfc-5ad8178d0687"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ethelnwachukwu\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying data types of the variables"
+      ],
+      "metadata": {
+        "id": "495Na8MDa1uH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(c))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1OPCQ7OVbFNZ",
+        "outputId": "a1e560ae-5776-480b-87be-db6f8c85b76f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(full_name))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bbiVasI5bjmM",
+        "outputId": "c2d4e219-83d2-47c4-b4ec-15a167228b5d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying two different strings"
+      ],
+      "metadata": {
+        "id": "b7SS9ZzMdvww"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"nwachukwu Ethel\"\n",
+        "address=\"takur adua\"\n",
+        "biodata=(f'{name} {address}')\n",
+        "print(biodata)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UaZYcoQJef0W",
+        "outputId": "0d7b0436-1384-4db1-afa6-ebbdd728140e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nwachukwu Ethel takur adua\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
